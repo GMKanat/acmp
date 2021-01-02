@@ -13,7 +13,7 @@ int main(){
 	int a, b;
 	while(k--){
 		cin >> a >> b;
-		if(a)
+		if(author)
 		if(a > b) swap(a, b);
 		v.push_back({a,b});
 	}
