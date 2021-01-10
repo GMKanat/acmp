@@ -4,9 +4,7 @@
 **/
 #include <bits/stdc++.h>
 using namespace std;
-int add(string a, string b){
-	
-}
+
 
 
 int main(){
@@ -15,13 +13,11 @@ int main(){
 	cin >> k >> n;
 	vector<double> v(1 + n, 0);
 	v[0] = 1;
-	if(k > n) {
-		cout << 0;return 0;
-	}
 	for(int i = 1; i <= n; i++){
 		for(int j = max(0, i - k); j < i; j++){
 			v[i] += v[j];
 		}
+		printf("%.0f ", v[i]);
 	}
-	printf("%.0f", v[n]);
+	
 }
