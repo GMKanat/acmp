@@ -41,6 +41,11 @@ using namespace std;
 #define imx INT_MAX
 
 int main(){
-	NeedForSpeed;
-	//freopen("input.txt", "r+", stdin);
+	#ifndef ONLINE_JUDGE
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+    #endif
+    NeedForSpeed;
+    int x;cin>>x;cout<<x*x;
+
 }
