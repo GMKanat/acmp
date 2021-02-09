@@ -5,14 +5,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define gg return 0
+#define gg return
 #define wp break
 #define gl continue
 #define next 
 #define ll long long
-#define NeedForSpeed ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
-#define input freopen("input.txt","rt", stdin)
-#define output freopen("output.txt","wt", stdout)
+#define Speed ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
 
 #define all(x) x.begin(), x.end()
 #define rall(x) (x).rbegin(), (x).rend() 
@@ -41,11 +39,6 @@ using namespace std;
 #define imx INT_MAX
 
 int main(){
-	#ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-    #endif
-    NeedForSpeed;
-    int x;cin>>x;cout<<x*x;
+	Speed;
 
 }
