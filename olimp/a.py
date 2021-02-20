@@ -1,4 +1,9 @@
-a, b, c = [int(i) for i in input().split()]
-d = [int(i) for i in input().split()]
-print(a + b + c)
-print(d)
+import math
+def read():
+	return [int(i) for i in input().split()]
+def cin():
+	return int(input())
+
+a, b, c = read()
+d = read()
+e = cin()
