@@ -1,9 +1,13 @@
-import math
-def read():
-	return [int(i) for i in input().split()]
-def cin():
-	return int(input())
-
-a, b, c = read()
-d = read()
-e = cin()
+n, m = [int(i) for i in input().split()]
+a = set()
+b = set()
+for i in range(n):
+    a.add(int(input()))
+for i in range(m):
+    b.add(int(input()))
+print(len(a&b))
+print(*sorted(a&b,key=int))
+print(len(a-b))
+print(*sorted(a-b,key=int))
+print(len(b-a))
+print(*sorted(b-a,key=int))
